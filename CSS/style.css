@@ -1,0 +1,75 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("images/background.png");
+            color: #333;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        section h2 {
+            color: #333;
+            font-size: 2em;
+        }
+        .member {
+            margin: 20px 0;
+        }
+        .member button {
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .member button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        footer ul li {
+            margin: 0 15px;
+        }
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer ul li a:hover {
+            color: #0073e6;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
